@@ -1,4 +1,4 @@
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=160&section=header"/>
 <h1 align="center">Hi 👋, I'm Rathika S</h1>
 <h3 align="center">Full Stack Developer | AI & Agentic AI Learner</h3>
 
