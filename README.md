@@ -1,143 +1,90 @@
 
-<!-- 🌿 GREEN & MINT GITHUB PROFILE — RATHIKA S -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=003B2F&height=200&section=header&text=Rathika%20S&fontSize=55&fontColor=C8FFD4&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20Learner&descAlignY=58&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0B3D2E&height=170&section=header&text=Rathika%20S&fontSize=48&fontColor=E2FBEA&fontAlignY=40&desc=FULL%20STACK%20DEVELOPER%20%7C%20AI%20ENTHUSIAST&descSize=15&descAlignY=65&descColor=B7E4C7" />
 
-### 🌱 In the process of becoming.
-
-*Learning • Building • Growing*
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=40916C&center=true&vCenter=true&width=500&lines=Building+practical+software+solutions;Exploring+LLMs+and+Agentic+AI;Learning+through+projects+and+practice" alt="Professional tagline" />
+</p>
 
 </div>
 
 ---
 
-## 🌿 About Me
+## About Me
 
-```text
-👩‍💻 Computer Science Engineering Student
-💚 Interested in Full Stack Development
-🤖 Exploring LLMs and Agentic AI
-🧬 Building AI + Biology projects
-🧩 Practicing problem-solving on LeetCode
-🌱 Growing one project at a time
-```
+Computer Science Engineering student interested in building practical software
+applications and exploring AI-driven solutions.
+
+- Focused on **Full Stack Development** and software engineering fundamentals.
+- Exploring **LLMs, Retrieval-Augmented Generation (RAG), and Agentic AI**.
+- Developing projects that connect AI with real-world problems.
+- Practicing problem-solving and algorithms using LeetCode.
 
 ---
 
-## 🍃 Tech Stack
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Programming | Java, Python, C |
+| Frontend | HTML, CSS, JavaScript, React, Bootstrap |
+| Database | MySQL |
+| Tools | Git, GitHub |
+| AI / ML Learning | LLMs, RAG, Agentic AI |
+
+---
+
+## Selected Projects
+
+### 01 · eDNA-Based Biodiversity Monitoring Using AI
+Exploring environmental DNA sequence analysis for biodiversity monitoring using bioinformatics and AI-assisted workflows.
+
+**Technologies:** Python · Biopython · BLAST
+
+### 02 · RAG-Based Document Question Answering
+A document question-answering application that retrieves relevant information from uploaded documents and generates responses using an LLM.
+
+**Technologies:** Python · FAISS · Sentence Transformers · Streamlit · Gemini
+
+### 03 · LeetCode Solutions
+A collection of coding practice solutions focused on programming fundamentals and algorithmic problem-solving.
+
+**Technologies:** Java · Python
+
+<p>
+  <a href="https://github.com/radik-ha?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20Projects-1B4332?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Explore Projects" />
+  </a>
+  <a href="https://github.com/radik-ha/LEETCODE-CHALLENGE">
+    <img src="https://img.shields.io/badge/LeetCode%20Practice-40916C?style=for-the-badge&logo=leetcode&logoColor=FFFFFF" alt="LeetCode Practice" />
+  </a>
+</p>
+
+---
+
+## GitHub Activity
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-14532D?style=for-the-badge&logo=openjdk&logoColor=D1FAE5)
-![Python](https://img.shields.io/badge/Python-166534?style=for-the-badge&logo=python&logoColor=D1FAE5)
-![HTML5](https://img.shields.io/badge/HTML5-15803D?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-16A34A?style=for-the-badge&logo=css3&logoColor=white)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=radik-ha&show_icons=true&hide_border=true&bg_color=F0FDF4&title_color=1B4332&text_color=344E41&icon_color=40916C" alt="GitHub statistics" />
 
-![JavaScript](https://img.shields.io/badge/JavaScript-365314?style=for-the-badge&logo=javascript&logoColor=FDE68A)
-![React](https://img.shields.io/badge/React-064E3B?style=for-the-badge&logo=react&logoColor=A7F3D0)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-166534?style=for-the-badge&logo=bootstrap&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-14532D?style=for-the-badge&logo=mysql&logoColor=D1FAE5)
-
-![Git](https://img.shields.io/badge/Git-166534?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-052E16?style=for-the-badge&logo=github&logoColor=D1FAE5)
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=radik-ha&layout=compact&hide_border=true&bg_color=F0FDF4&title_color=1B4332&text_color=344E41" alt="Most used languages" />
 
 </div>
 
 ---
 
-## 🌳 Featured Projects
+## Connect
 
-<table>
-<tr>
-<td width="50%">
-
-### 🧬 eDNA Biodiversity AI
-
-AI-assisted biodiversity monitoring using environmental DNA data.
-
-**Tools:** Python · Biopython · BLAST
-
-[↗ Explore my repositories](https://github.com/radik-ha?tab=repositories)
-
-</td>
-<td width="50%">
-
-### 📚 RAG Document Assistant
-
-A document question-answering project using retrieval-augmented generation.
-
-**Tools:** Python · FAISS · Streamlit · Gemini
-
-[↗ Explore my repositories](https://github.com/radik-ha?tab=repositories)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 💻 LeetCode Solutions
-
-Practicing programming, data structures and algorithms.
-
-**Focus:** Java · Python · Problem Solving
-
-[↗ View LeetCode Challenge](https://github.com/radik-ha/LEETCODE-CHALLENGE)
-
-</td>
-<td width="50%">
-
-### 🤖 Agentic AI Journey
-
-Learning about LLMs, tools, memory and AI agents.
-
-**Focus:** Learning · Experimenting · Building
-
-[↗ Explore my repositories](https://github.com/radik-ha?tab=repositories)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🌱 Currently Growing
-
-- 🍀 LLMs and Agentic AI
-- 🌿 Full Stack Development
-- 🍃 Data Structures and Algorithms
-- 🌳 AI-powered real-world applications
-
----
-
-## 📊 GitHub Garden
+<p>
+  <a href="https://github.com/radik-ha">GitHub</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/">LinkedIn</a>
+</p>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=radik-ha&show_icons=true&hide_border=true&bg_color=052E16&title_color=86EFAC&text_color=D1FAE5&icon_color=4ADE80" alt="GitHub Stats"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=radik-ha&layout=compact&hide_border=true&bg_color=052E16&title_color=86EFAC&text_color=D1FAE5" alt="Most Used Languages"/>
-
-<img width="95%" src="https://streak-stats.demolab.com?user=radik-ha&hide_border=true&background=052E16&ring=86EFAC&fire=4ADE80&currStreakLabel=D1FAE5&sideLabels=86EFAC&currStreakNum=FFFFFF&sideNums=D1FAE5&dates=86EFAC" alt="GitHub Contribution Streak"/>
-
-</div>
-
----
-
-## 🍀 Let's Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-052E16?style=for-the-badge&logo=github&logoColor=D1FAE5)](https://github.com/radik-ha)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-166534?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-
-<br/>
-
-**🌿 Small steps every day, build big dreams.**
-
-*In the process of becoming.* 💚
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=003B2F&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0B3D2E&height=65&section=footer&text=In%20the%20process%20of%20becoming.&fontSize=18&fontColor=E2FBEA" />
 
 </div>
