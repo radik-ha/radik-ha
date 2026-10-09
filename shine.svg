@@ -2,33 +2,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100">
 
   <defs>
-    <linearGradient id="movingShine" gradientUnits="userSpaceOnUse" x1="-180" y1="0" x2="-80" y2="0">
+    <linearGradient id="movingShine" gradientUnits="userSpaceOnUse" x1="-220" y1="0" x2="-40" y2="0">
 
-      <stop offset="0%" stop-color="#FFD700" stop-opacity="0"></stop>
-      <stop offset="35%" stop-color="#FFF700" stop-opacity="0.25"></stop>
-      <stop offset="48%" stop-color="#FFFF99"></stop>
-      <stop offset="50%" stop-color="#FFFFFF"></stop>
-      <stop offset="52%" stop-color="#FFFF99"></stop>
-      <stop offset="65%" stop-color="#FFF700" stop-opacity="0.25"></stop>
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"></stop>
+      <stop offset="0%" stop-color="#FFD000" stop-opacity="0"></stop>
+      <stop offset="30%" stop-color="#FFD700" stop-opacity="0.8"></stop>
+      <stop offset="43%" stop-color="#FFFF00" stop-opacity="1"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"></stop>
+      <stop offset="57%" stop-color="#FFFF66" stop-opacity="1"></stop>
+      <stop offset="70%" stop-color="#FFD700" stop-opacity="0.8"></stop>
+      <stop offset="100%" stop-color="#FFD000" stop-opacity="0"></stop>
 
-      <animate attributeName="x1" from="-180" to="1380" dur="2.4s" repeatCount="indefinite"></animate>
+      <animate attributeName="x1" from="-220" to="1420" dur="2.4s" repeatCount="indefinite"></animate>
 
-      <animate attributeName="x2" from="-80" to="1480" dur="2.4s" repeatCount="indefinite"></animate>
+      <animate attributeName="x2" from="-40" to="1600" dur="2.4s" repeatCount="indefinite"></animate>
     </linearGradient>
 
-    <filter id="sharpGlow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="1.5"></feGaussianBlur>
+    <filter id="brightGlow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Static mint-green text -->
+  <!-- Original pale mint-green text -->
   <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="#B7EACB">
     From the light of vision, reaching beyond all limits
   </text>
 
-  <!-- Moving golden shine -->
-  <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="url(#movingShine)">
+  <!-- Bright moving golden-white shine -->
+  <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="url(#movingShine)" filter="url(#brightGlow)">
     From the light of vision, reaching beyond all limits
   </text>
 
