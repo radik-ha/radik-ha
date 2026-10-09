@@ -1,8 +1,11 @@
 <div align="center">
+
   <h3>
-    <span style="color: #7CFFB2;">
-      From the light of vision,<br>
-      reaching beyond all limits 💫
-    </span>
+    <samp>From the light of vision,<br>reaching beyond all limits 💫</samp>
   </h3>
+
+  <p>
+    <samp>BUILD • LEARN • GROW</samp> 🌱
+  </p>
+
 </div>
