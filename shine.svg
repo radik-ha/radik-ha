@@ -18,12 +18,12 @@
 
   <!-- Base text -->
   <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="#B7EACB">
-    From the light of vision, reaching beyond all limits
+    From the light of vision, reaching beyond all limits💫
   </text>
 
   <!-- Sharp moving shine, without glow -->
   <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="url(#softShine)">
-    From the light of vision, reaching beyond all limits
+    From the light of vision, reaching beyond all limits💫
   </text>
 
 </svg>
