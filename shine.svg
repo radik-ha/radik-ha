@@ -1,7 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100">
 
-<p align="center">
-  <img
-    src="shine.svg"
-    alt="From the light of vision, reaching beyond all limits"
-    width="100%">
-</p>
+  <defs>
+    <linearGradient id="blueShine" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-100" y2="0">
+
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"></stop>
+      <stop offset="40%" stop-color="#60A5FA" stop-opacity="0.5"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"></stop>
+      <stop offset="60%" stop-color="#60A5FA" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"></stop>
+
+      <animate attributeName="x1" from="-300" to="1500" dur="2s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="x2" from="-100" to="1700" dur="2s" repeatCount="indefinite"></animate>
+    </linearGradient>
+  </defs>
+
+  <text x="20" y="62" font-family="Georgia, serif" font-size="35" font-style="italic" font-weight="bold" fill="#3B82F6">
+    From the light of vision, reaching beyond all limits
+  </text>
+
+  <text x="20" y="62" font-family="Georgia, serif" font-size="35" font-style="italic" font-weight="bold" fill="url(#blueShine)">
+    From the light of vision, reaching beyond all limits
+  </text>
+
+</svg>
