@@ -1,5 +1,4 @@
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=4000&pause=1000&color=7CFFB2&center=true&vCenter=true&width=800&lines=From+the+light+of+vision+reaching+beyond+all+the+limits+%F0%9F%92%AB" alt="From the light of vision, reaching beyond all limits">
-  <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radik-ha&bg_color=0d1117&color=4ade80&line=22c55e&point=bbf7d0&area=true&hide_border=true&custom_title=My%20Coding%20Journey" width="100%" />
 </div>
