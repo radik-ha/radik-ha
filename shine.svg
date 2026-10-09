@@ -2,27 +2,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
 
   <defs>
-    <linearGradient id="paleShine" gradientUnits="userSpaceOnUse" x1="-200" y1="0" x2="0" y2="0">
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-250" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#B7F7D0" stop-opacity="0"></stop>
+      <stop offset="35%" stop-color="#D7FFE6" stop-opacity="0.8"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"></stop>
+      <stop offset="65%" stop-color="#FFFFFF" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#B7F7D0" stop-opacity="0"></stop>
 
-      <stop offset="0%" stop-color="#DDFBE8" stop-opacity="0"></stop>
-      <stop offset="45%" stop-color="#F4FFF8" stop-opacity="0.9"></stop>
-      <stop offset="50%" stop-color="#FFFFFF"></stop>
-      <stop offset="55%" stop-color="#F4FFF8" stop-opacity="0.9"></stop>
-      <stop offset="100%" stop-color="#DDFBE8" stop-opacity="0"></stop>
-
-      <animate attributeName="x1" values="-200;1400" dur="2s" repeatCount="indefinite"></animate>
-
-      <animate attributeName="x2" values="0;1600" dur="2s" repeatCount="indefinite"></animate>
+      <animate attributeName="x1" values="-250;1450" dur="2s" repeatCount="indefinite"></animate>
+      <animate attributeName="x2" values="0;1700" dur="2s" repeatCount="indefinite"></animate>
     </linearGradient>
+
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- Pale mint-green text -->
-  <text x="600" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="500" fill="#B7EACB">
+  <!-- Base text -->
+  <text x="600" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="#B7EACB">
     From the light of vision, reaching beyond all limits
   </text>
 
-  <!-- Moving shine effect -->
-  <text x="600" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="500" fill="url(#paleShine)">
+  <!-- Bright moving shine -->
+  <text x="600" y="45" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="600" fill="url(#shine)" filter="url(#glow)">
     From the light of vision, reaching beyond all limits
   </text>
 
