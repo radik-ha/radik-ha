@@ -1,4 +1,4 @@
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=radik-ha&bg_color=0d1117&color=4ade80&line=22c55e&point=bbf7d0&area=true&hide_border=true&custom_title=My%20Coding%20Journey" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:064e3b,50:22c55e,100:bbf7d0&height=180&section=header&text=Beyond%20All%20Limits&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 </div>
