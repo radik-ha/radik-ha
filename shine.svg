@@ -2,28 +2,98 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100">
 
   <defs>
-    <linearGradient id="softShine" gradientUnits="userSpaceOnUse" x1="-100" y1="0" x2="40" y2="0">
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
 
-      <stop offset="0%" stop-color="#FFE680" stop-opacity="0"></stop>
-      <stop offset="40%" stop-color="#FFE680" stop-opacity="0.4"></stop>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"></stop>
-      <stop offset="60%" stop-color="#FFD966" stop-opacity="0.4"></stop>
-      <stop offset="100%" stop-color="#FFE680" stop-opacity="0"></stop>
+    <style>
+      .letter {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 24px;
+        font-weight: 400;
+        text-anchor: middle;
+        fill: #B7EACB;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: goldPulse 2.4s linear infinite;
+      }
 
-      <animate attributeName="x1" from="-100" to="1300" dur="3s" repeatCount="indefinite"></animate>
-
-      <animate attributeName="x2" from="40" to="1440" dur="3s" repeatCount="indefinite"></animate>
-    </linearGradient>
+      @keyframes goldPulse {
+        0%, 100% {
+          fill: #B7EACB;
+          transform: scale(1);
+          filter: none;
+        }
+        1.5% {
+          fill: #FFF700;
+          transform: scale(1.35);
+          filter: url(#goldGlow);
+        }
+        3% {
+          fill: #B7EACB;
+          transform: scale(1);
+          filter: none;
+        }
+      }
+    </style>
   </defs>
 
-  <!-- Soft mint-green base -->
-  <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="#B7EACB">
-    From the light of vision, reaching beyond all limits
-  </text>
+  <g>
+    <text class="letter" x="138" y="58" style="animation-delay:0s">F</text>
+    <text class="letter" x="156" y="58" style="animation-delay:.045s">r</text>
+    <text class="letter" x="174" y="58" style="animation-delay:.09s">o</text>
+    <text class="letter" x="192" y="58" style="animation-delay:.135s">m</text>
 
-  <!-- Subtle moving shine -->
-  <text x="600" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="400" fill="url(#softShine)">
-    From the light of vision, reaching beyond all limits
-  </text>
+    <text class="letter" x="228" y="58" style="animation-delay:.225s">t</text>
+    <text class="letter" x="246" y="58" style="animation-delay:.27s">h</text>
+    <text class="letter" x="264" y="58" style="animation-delay:.315s">e</text>
 
+    <text class="letter" x="300" y="58" style="animation-delay:.405s">l</text>
+    <text class="letter" x="318" y="58" style="animation-delay:.45s">i</text>
+    <text class="letter" x="336" y="58" style="animation-delay:.495s">g</text>
+    <text class="letter" x="354" y="58" style="animation-delay:.54s">h</text>
+    <text class="letter" x="372" y="58" style="animation-delay:.585s">t</text>
+
+    <text class="letter" x="408" y="58" style="animation-delay:.675s">o</text>
+    <text class="letter" x="426" y="58" style="animation-delay:.72s">f</text>
+
+    <text class="letter" x="462" y="58" style="animation-delay:.81s">v</text>
+    <text class="letter" x="480" y="58" style="animation-delay:.855s">i</text>
+    <text class="letter" x="498" y="58" style="animation-delay:.9s">s</text>
+    <text class="letter" x="516" y="58" style="animation-delay:.945s">i</text>
+    <text class="letter" x="534" y="58" style="animation-delay:.99s">o</text>
+    <text class="letter" x="552" y="58" style="animation-delay:1.035s">n</text>
+    <text class="letter" x="570" y="58" style="animation-delay:1.08s">,</text>
+
+    <text class="letter" x="606" y="58" style="animation-delay:1.17s">r</text>
+    <text class="letter" x="624" y="58" style="animation-delay:1.215s">e</text>
+    <text class="letter" x="642" y="58" style="animation-delay:1.26s">a</text>
+    <text class="letter" x="660" y="58" style="animation-delay:1.305s">c</text>
+    <text class="letter" x="678" y="58" style="animation-delay:1.35s">h</text>
+    <text class="letter" x="696" y="58" style="animation-delay:1.395s">i</text>
+    <text class="letter" x="714" y="58" style="animation-delay:1.44s">n</text>
+    <text class="letter" x="732" y="58" style="animation-delay:1.485s">g</text>
+
+    <text class="letter" x="768" y="58" style="animation-delay:1.575s">b</text>
+    <text class="letter" x="786" y="58" style="animation-delay:1.62s">e</text>
+    <text class="letter" x="804" y="58" style="animation-delay:1.665s">y</text>
+    <text class="letter" x="822" y="58" style="animation-delay:1.71s">o</text>
+    <text class="letter" x="840" y="58" style="animation-delay:1.755s">n</text>
+    <text class="letter" x="858" y="58" style="animation-delay:1.8s">d</text>
+
+    <text class="letter" x="894" y="58" style="animation-delay:1.89s">a</text>
+    <text class="letter" x="912" y="58" style="animation-delay:1.935s">l</text>
+    <text class="letter" x="930" y="58" style="animation-delay:1.98s">l</text>
+
+    <text class="letter" x="966" y="58" style="animation-delay:2.07s">l</text>
+    <text class="letter" x="984" y="58" style="animation-delay:2.115s">i</text>
+    <text class="letter" x="1002" y="58" style="animation-delay:2.16s">m</text>
+    <text class="letter" x="1020" y="58" style="animation-delay:2.205s">i</text>
+    <text class="letter" x="1038" y="58" style="animation-delay:2.25s">t</text>
+    <text class="letter" x="1056" y="58" style="animation-delay:2.295s">s</text>
+  </g>
 </svg>
