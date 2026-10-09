@@ -1,25 +1,24 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="80" viewBox="0 0 1200 80">
 
   <defs>
-    <linearGradient id="greenGlow" gradientUnits="userSpaceOnUse" x1="-180" y1="0" x2="0" y2="0">
+    <linearGradient id="paleShine" x1="-200" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D8FBE5" stop-opacity="0"></stop>
+      <stop offset="45%" stop-color="#F5FFF8" stop-opacity="0.9"></stop>
+      <stop offset="50%" stop-color="#FFFFFF"></stop>
+      <stop offset="55%" stop-color="#F5FFF8" stop-opacity="0.9"></stop>
+      <stop offset="100%" stop-color="#D8FBE5" stop-opacity="0"></stop>
 
-      <stop offset="0%" stop-color="#39FF88" stop-opacity="0"></stop>
-      <stop offset="40%" stop-color="#B7FFCE" stop-opacity="0.85"></stop>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"></stop>
-      <stop offset="60%" stop-color="#B7FFCE" stop-opacity="0.85"></stop>
-      <stop offset="100%" stop-color="#39FF88" stop-opacity="0"></stop>
-
-      <animate attributeName="x1" values="-180;1380" dur="2s" repeatCount="indefinite"></animate>
-
-      <animate attributeName="x2" values="0;1560" dur="2s" repeatCount="indefinite"></animate>
+      <animate attributeName="x1" values="-200;1400" dur="2s" repeatCount="indefinite"></animate>
+      <animate attributeName="x2" values="0;1600" dur="2s" repeatCount="indefinite"></animate>
     </linearGradient>
   </defs>
 
-  <!-- Base green text -->
-  <text x="12" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" font-weight="bold" fill="#00C875">From the light of vision, reaching beyond all limits 💫</text>
+  <text x="600" y="43" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-style="italic" font-weight="bold" fill="#B7EACB">
+    From the light of vision, reaching beyond all limits 💫
+  </text>
 
-  <!-- Moving glow across the letters -->
-  <text x="12" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-style="italic" font-weight="bold" fill="url(#greenGlow)">From the light of vision, reaching beyond all limits 💫</text>
-
+  <text x="600" y="43" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-style="italic" font-weight="bold" fill="url(#paleShine)">
+    From the light of vision, reaching beyond all limits 💫
+  </text>
 </svg>
